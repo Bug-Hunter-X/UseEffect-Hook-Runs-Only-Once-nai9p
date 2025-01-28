@@ -1,0 +1,2 @@
+# React useEffect Hook Runs Only Once
+This example demonstrates a common mistake when using the `useEffect` hook in React. The `useEffect` hook is intended to perform side effects based on changes in props or state, but if the dependency array is empty (`[]`), it only runs once during the initial mount.
